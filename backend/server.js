@@ -15,6 +15,8 @@ app.use(cors());
  */
 import searchRouter from "./routes/search.js";
 app.use("/api/search", searchRouter);
+import statusRouter from "./routes/status.js";
+app.use("/api/status", statusRouter);
 
 import errorHandler from "./middleware/errorHandler.js";
 app.use(errorHandler);
