@@ -1,5 +1,5 @@
 const isLocal = window.location.hostname === "localhost" || window.location.hostname === "";
-const baseURL = isLocal ? "http://localhost:3020/api" : "https://your-render-backend.onrender.com/api";
+const baseURL = isLocal ? "http://localhost:3020/api" : "https://lmgtfyad.onrender.com/api";
 const fileName = "vysledky_hledani";
 let lastQuery = "";
 let lastResults = [];
