@@ -29,7 +29,7 @@ const searchViaGoogleAPI = expressAsyncHandler(async (req, res) => {
     }
 
     const data = await searchResult.json();
-    console.log(data);
+    //console.log(data);
 
     // Strip down "pagemap" and "customsearch" from the result. Set empty string as default for values.
     const result = [];
