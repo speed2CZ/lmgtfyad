@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>LMGTFYAD</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <h1>Proxy Google hledání</h1>
+        <p style="font-size: x-small;">Let me google that for you, and download</p>
+
+        <input type="text" id="query" size="50" />
+        <button id="search-button">Hledat</button>
+
+        <div id="download-section" style="display: none; margin-top: 2em;">
+            <h3>Stáhnout výsledky hledání</h3>
+            <label for="format">Formát:</label>
+            <select id="format">
+                <option value="json">JSON</option>
+                <option value="csv">CSV</option>
+                <option value="ndjson">NDJSON</option>
+                <option value="xml">XML</option>
+            </select>
+            <button id="download-btn">Stáhnout</button>
+        </div>
+
+        <div id="results-container"></div>
+
+        <script src="main.js" defer></script>
+    </body>
+</html>

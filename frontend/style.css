@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+input,
+button,
+select {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.result {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.result h3 {
+    margin: 0 0 0.2em 0;
+}
+
+.result a {
+    color: blue;
+    text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Backend (Express)",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/backend/server.js",
+            "cwd": "${workspaceFolder}/backend",
+            "envFile": "${workspaceFolder}/backend/.env",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}
